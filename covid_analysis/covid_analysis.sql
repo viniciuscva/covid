@@ -4,33 +4,45 @@ select * from covid_deaths order by 4,3 limit 300;
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM covid_deaths 
-ORDER BY 1,2 LIMIT 300;
+ORDER BY 1,2;
 
 -- TOTAL CASES VS TOTAL DEATHS
 SELECT location, date, total_cases,  total_deaths, (total_deaths/total_cases)*100 as death_perc
 FROM covid_deaths 
 WHERE location LIKE 'brazil';
 
+SELECT sum(totals_per_country.total_cases_in_country) as total_cases_worldwide,
+	   sum(totals_per_country.total_deaths_in_country) as total_deaths_worldwide,
+       sum(totals_per_country.total_deaths_in_country)/sum(totals_per_country.total_cases_in_country)*100 as death_rate_worldwide
+FROM
+	(SELECT location, max(total_cases) as total_cases_in_country, max(total_deaths) as total_deaths_in_country
+	FROM covid_deaths
+	WHERE continent <> ''
+	GROUP BY location) totals_per_country
+;
+
 -- TOTAL CASES VS POPULATION
-SELECT location, date, total_cases, population, (total_cases/population)*100 as cases_per_100
+SELECT location, date, total_cases, population, (total_cases/population)*100 as cases_perc_pop
 FROM covid_deaths
-WHERE location LIKE 'brazil';
+;
 
 -- COUNTRIES WITH HIGHEST INFECTION RATES
-SELECT location, date, (total_cases/population)*100 as infection_rate
+SELECT location, max(total_cases/population)*100 as infection_rate
 FROM covid_deaths
-WHERE date = '2021-10-13' 
+WHERE continent <> '' 
+GROUP BY location
 ORDER BY infection_rate DESC;
 
 SELECT location, population, max(total_cases) as max_cases_count, max(total_deaths) as max_death_count, max(total_cases*100/population) as infection_rate
 FROM covid_deaths
+WHERE continent <> ''
 GROUP BY location,population
 ORDER BY infection_rate DESC;
 
 -- COUNTRIES WITH HIGHTEST DEATH COUNT 
 SELECT location, max(total_cases) as totalcasescount, max(total_deaths) as totaldeathcount
 FROM covid_deaths
--- WHERE continent <> ''
+WHERE continent <> ''
 GROUP BY location
 ORDER BY totaldeathcount DESC;
 
@@ -41,9 +53,9 @@ GROUP BY location, population
 ORDER BY death_rate_pop DESC;
 
 -- DEATH COUNT BY CONTINENT
-SELECT continent, sum(total_death_count) as deaths_per_continent
+SELECT continent, sum(total_cases_count) as cases_per_continent, sum(total_death_count) as deaths_per_continent
 FROM
-	(SELECT location, continent, max(total_deaths) as total_death_count
+	(SELECT location, continent, max(total_cases) as total_cases_count, max(total_deaths) as total_death_count
 	FROM covid_deaths
 	WHERE continent <> ''
 	GROUP BY location, continent) dpc

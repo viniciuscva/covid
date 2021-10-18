@@ -1,0 +1,225 @@
+location,infection_rate
+Seychelles,22.0700
+Montenegro,21.7100
+Andorra,19.8000
+Georgia,16.2100
+"San Marino",16.0800
+Czechia,15.9000
+Maldives,15.7900
+Bahrain,15.7800
+Israel,14.9200
+Serbia,14.8300
+Slovenia,14.6200
+Cyprus,13.5800
+"United States",13.4200
+Lithuania,13.3000
+Estonia,12.6600
+Luxembourg,12.5200
+"United Kingdom",12.1900
+Netherlands,12.0700
+Argentina,11.5500
+Sweden,11.4200
+Uruguay,11.2000
+Belgium,10.9400
+Panama,10.7200
+"Costa Rica",10.6800
+Spain,10.6500
+France,10.6000
+Portugal,10.5900
+Croatia,10.3200
+Brazil,10.0900
+Mongolia,10.0000
+Switzerland,9.7800
+Colombia,9.7100
+Kuwait,9.5200
+Latvia,9.4200
+"North Macedonia",9.3900
+Liechtenstein,9.3500
+Lebanon,9.3300
+Armenia,9.2700
+Kosovo,9.0400
+Turkey,8.8700
+Chile,8.6600
+Hungary,8.6200
+Palestine,8.5300
+Austria,8.4800
+Monaco,8.4400
+Ireland,8.1900
+Cuba,8.1800
+Jordan,8.1500
+Qatar,8.1100
+Slovakia,7.8700
+Italy,7.8000
+Poland,7.7500
+Moldova,7.7200
+Bulgaria,7.7000
+Suriname,7.7000
+Botswana,7.5600
+"Bosnia and Herzegovina",7.4300
+"United Arab Emirates",7.3900
+Romania,7.3100
+Malta,7.2700
+Malaysia,7.2100
+"Cape Verde",6.7500
+Iran,6.7500
+Greece,6.6000
+"Saint Lucia",6.5600
+Peru,6.5500
+Paraguay,6.3800
+Denmark,6.3300
+Ukraine,6.2100
+Albania,6.1300
+Belarus,5.9700
+Tunisia,5.9500
+Oman,5.8200
+Fiji,5.7200
+Dominica,5.7000
+Belize,5.6700
+Bahamas,5.4400
+Russia,5.3100
+Kazakhstan,5.2000
+Germany,5.1800
+Grenada,5.0200
+Libya,5.0000
+Namibia,4.9500
+Iraq,4.9300
+Azerbaijan,4.8500
+"South Africa",4.8500
+"Saint Kitts and Nevis",4.6100
+Canada,4.4100
+Guyana,4.3000
+Bolivia,4.2700
+Barbados,4.1000
+Eswatini,3.9500
+"Antigua and Barbuda",3.8700
+"Trinidad and Tobago",3.7900
+Honduras,3.6900
+"Saint Vincent and the Grenadines",3.6800
+Iceland,3.5900
+Norway,3.5700
+"Dominican Republic",3.3500
+Vatican,3.3300
+Guatemala,3.2000
+Jamaica,2.9100
+Mexico,2.8700
+Ecuador,2.8600
+Kyrgyzstan,2.7100
+Nepal,2.7100
+Finland,2.6800
+Morocco,2.5200
+Thailand,2.4900
+"Sri Lanka",2.4600
+India,2.4400
+Philippines,2.4200
+Singapore,2.3000
+Brunei,2.1900
+"El Salvador",1.6500
+"Sao Tome and Principe",1.6300
+"Saudi Arabia",1.5500
+Indonesia,1.5300
+Timor,1.4700
+Gabon,1.4300
+Japan,1.3600
+Venezuela,1.3400
+Djibouti,1.3300
+Mauritius,1.2900
+Zambia,1.1100
+Lesotho,0.9900
+Bangladesh,0.9400
+"Equatorial Guinea",0.8900
+Myanmar,0.8800
+Zimbabwe,0.8800
+Vietnam,0.8700
+Mauritania,0.7600
+Rwanda,0.7500
+Cambodia,0.6800
+"South Korea",0.6600
+Pakistan,0.5600
+Australia,0.5300
+Uzbekistan,0.5300
+Comoros,0.4700
+Mozambique,0.4700
+Algeria,0.4600
+Kenya,0.4600
+Senegal,0.4300
+Laos,0.4100
+Gambia,0.4000
+Ghana,0.4000
+Afghanistan,0.3900
+Cameroon,0.3600
+Bhutan,0.3400
+Malawi,0.3100
+Egypt,0.3000
+Ethiopia,0.3000
+Guinea-Bissau,0.3000
+Togo,0.3000
+Congo,0.2700
+"Papua New Guinea",0.2600
+Uganda,0.2600
+"Central African Republic",0.2300
+"Cote d'Ivoire",0.2300
+Guinea,0.2300
+Nicaragua,0.2300
+Syria,0.2100
+Benin,0.2000
+Haiti,0.2000
+Eritrea,0.1900
+Angola,0.1800
+Tajikistan,0.1800
+Burundi,0.1600
+"Hong Kong",0.1600
+Madagascar,0.1500
+Somalia,0.1300
+Liberia,0.1100
+"South Sudan",0.1100
+"New Zealand",0.1000
+Nigeria,0.1000
+Sudan,0.0900
+"Sierra Leone",0.0800
+"Burkina Faso",0.0700
+Mali,0.0700
+Taiwan,0.0700
+"Democratic Republic of Congo",0.0600
+Tanzania,0.0400
+Chad,0.0300
+Palau,0.0300
+Yemen,0.0300
+Niger,0.0200
+China,0.0100
+"Marshall Islands",0.0100
+Anguilla,0.0000
+Aruba,0.0000
+Bermuda,0.0000
+"Bonaire Sint Eustatius and Saba",0.0000
+"British Virgin Islands",0.0000
+"Cayman Islands",0.0000
+"Cook Islands",0.0000
+Curacao,0.0000
+"Faeroe Islands",0.0000
+"Falkland Islands",0.0000
+"French Polynesia",0.0000
+Gibraltar,0.0000
+Greenland,0.0000
+Guernsey,0.0000
+"Isle of Man",0.0000
+Jersey,0.0000
+Kiribati,0.0000
+Macao,0.0000
+"Micronesia (country)",0.0000
+Montserrat,0.0000
+Nauru,0.0000
+"New Caledonia",0.0000
+Niue,0.0000
+Pitcairn,0.0000
+"Saint Helena",0.0000
+Samoa,0.0000
+"Sint Maarten (Dutch part)",0.0000
+"Solomon Islands",0.0000
+Tokelau,0.0000
+Tonga,0.0000
+Turkmenistan,0.0000
+"Turks and Caicos Islands",0.0000
+Tuvalu,0.0000
+Vanuatu,0.0000
+"Wallis and Futuna",0.0000
+"Northern Cyprus",NULL
